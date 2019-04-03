@@ -1,0 +1,85 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 -15px;
+}
+
+/***********************  
+*********HEADER*********
+************************/
+
+header {
+	height: 967px;
+	background: url(../img/header/header_background.png) no-repeat center center;
+}
+
+/*Header Menu*/
+
+.header_menu {
+	height: 134px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.header_logo {
+	padding-left: 100px;
+}
+
+header nav ul {
+	list-style: none;
+	padding-right: 50px;
+	margin: 0;
+}
+
+header nav ul li {
+	margin-right: 50px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+header nav ul li a:hover {
+	border-bottom: 2px solid #39b9ef;
+}
+
+header nav ul li:last-child {
+	margin-left: 30px;
+}
+
+/*Header Main Text*/
+
+.header_main_text h1 {
+	margin-top: 250px;
+	margin-bottom: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.header_main_text span {
+	color: #39b9ef;
+}
+
+.header_main_text p {
+	margin-top: 14px;
+	margin-bottom: 75px;
+	font-size: 24px;
+	text-align: center;
+	color: #fff;
+}
+
+.header_button {
+	display: block;
+	width: 217px;
+	background-color: #2ebaee;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
