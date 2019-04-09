@@ -1,6 +1,5 @@
 body {
 	font-family: 'Montserrat', sans-serif;
-	margin: 0 -15px;
 }
 
 /***********************  
@@ -9,7 +8,8 @@ body {
 
 header {
 	height: 967px;
-	background: url(../img/header/header_background.png) no-repeat center center;
+	background: url(../img/header/header-bg.jpg);
+	background-size: cover;
 }
 
 /*Header Menu*/
@@ -70,7 +70,7 @@ header {
 	color: #fff;
 }
 
-.header_button {
+.button {
 	display: block;
 	width: 217px;
 	background-color: #2ebaee;
@@ -79,17 +79,161 @@ header {
 	text-align: center;
 	margin: 0 auto;
 	line-height: 50px;
-	text-decoration: none;
 	font-size: 18px;
 	font-weight: bold;
+	text-decoration: none !important;
 }
 
 /***********************  
 *******OUR SERVICES*****
 ************************/
 
+.bg-services {
+	background-image: linear-gradient(150deg, #fff 50%, #2ebaee 50%);
+}
+
 .our-services h2 {
 	color: #242424;
 	font-size: 48px;
 	text-align: center;
+	margin-top: 65px;
+	border-bottom: 1px solid #e7e7e7;
+	padding-bottom: 80px;
+}
+
+.our-services_item1 {
+	padding-top: 80px;
+}
+
+.our-services_item1 img {
+	margin-bottom: 50px;
+}
+
+.our-services_item1 h3, .services-2 h3, .services-3 h3, .lm-text h3{
+	color: #242424;
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+
+.our-services_item1 p, .services-2 p, .services-3 p, .lm-text p {
+	color: #878787;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 520px;
+}
+
+.services-button_1 {
+	margin: 65px auto 180px auto;
+	width: 150px;
+	height: 45px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.services-2 h3, .services-3 h3{
+	font-size: 35px;
+}
+
+.services-3 h3 {
+	color: #fff;
+}
+
+.services-3 p {
+	color: #fff;
+}
+
+.services-button_2, .services-button_3, .lm-btn, .footer-check_btn {
+	margin: 50px 0 0 0;
+	width: 150px;
+	height: 45px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.services-3 {
+	margin-top: 240px;
+	padding-bottom: 135px;
+}
+
+.services-button_3 {
+	background-color: #fff;
+	color: #2ebaee;
+}
+
+.services-icon-5 {
+	background: url(../img/our-services/icon-5.png) no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 477px;
+}
+
+.services-icon-6 {
+	background: url(../img/our-services/icon-6.png) no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 439px;
+}
+
+.serv-padd {
+	padding-left: 80px !important; 
+}
+
+/***********************  
+*******LEARN MORE*******
+************************/
+
+.lm-bg {
+	background: url(../img/learn-more/lm-1.jpg) no-repeat center;
+	width: 100%;
+	height: 670px;
+}
+
+.lm-text {
+	padding-left: 74px;
+}
+
+.lm-text h3 {
+	font-size: 72px;
+	color: #000;
+}
+
+.lm-bg_ico {
+	height: 434px;
+	position: relative;
+}
+
+.ico-wrap {
+	height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    opacity: 1;
+}
+
+.lm-bg_ico:hover .ico-wrap {
+	background: rgba(48, 155, 194, 0.75);
+}
+
+.ico-wrap h3 {
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+}
+
+/***********************  
+********FOOTER**********
+************************/
+
+.footer-check_btn {
+	margin: 0 0 110px 0;
+}
+
+.chk-our h2 {
+	font-size: 72px;
+	line-height: 80px;
+	color: #242424;
+	margin: 100px 0 110px 0;
+}
+
+.chk-our h2 span {
+	color: #2ebaee;
 }
